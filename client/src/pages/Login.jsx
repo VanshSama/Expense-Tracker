@@ -49,7 +49,7 @@ function Login() {
         <div className="flex flex-col items-center mb-6">
           <img src="./logo.png" alt="Logo" className="w-14 h-14 mb-3 drop-shadow-lg" />
           <h1 className="text-3xl font-extrabold bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent">
-            CashFlowX
+            Xpns
           </h1>
           <p className="text-sm font-medium text-gray-600 mt-1">Track Your Cash Flow</p>
         </div>

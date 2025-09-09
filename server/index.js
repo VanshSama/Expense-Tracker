@@ -15,7 +15,9 @@ const app = express();
 app.use(cookieParser());
 
 app.use(cors({
-  origin: "*",
+  origin: [
+    "https://expense-tracker-three-sooty-94.vercel.app"
+  ],
   credentials: true
 }));
 

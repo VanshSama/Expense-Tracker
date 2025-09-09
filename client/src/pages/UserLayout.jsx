@@ -48,7 +48,7 @@ export default function UserLayout() {
           onClick={() => navigate("/")}
           className="text-lg font-extrabold flex items-center gap-2 cursor-pointer bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent"
         >
-          <img src="./logo.png" alt="Logo" className="size-8" /> CashFlowX
+          <img src="./logo.png" alt="Logo" className="size-8" /> Xpns
         </div>
 
         {/* Menu Items */}

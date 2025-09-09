@@ -29,6 +29,13 @@ app.use('/api/budgets', auth, budgetRoutes);
 
 const PORT = process.env.PORT || 5000;
 
+app.get("/", (req, res) => {
+  return res.json({
+    success: true,
+    message: "Server is Up",
+  });
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });

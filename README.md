@@ -8,7 +8,7 @@ A modern, secure, and user-friendly Personal Finance Manager built with React on
 Click here: `https://expense-tracker-three-sooty-94.vercel.app`
 
 ## Demo Video
-[![Watch the video](https://drive.google.com/file/d/1fyNijA9OwNMBonxetOIYk7vxM3u1QotN/view?usp=sharing)](https://youtu.be/5ZKF5c4-i14)
+[![Watch the video](https://drive.google.com/uc?export=view&id=1fyNijA9OwNMBonxetOIYk7vxM3u1QotN)](https://youtu.be/5ZKF5c4-i14)
 
 ---
 

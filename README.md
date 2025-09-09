@@ -1,55 +1,72 @@
-# 💰 CashFlowX
+# Expense-Tracker
 
-A modern, user-friendly web application designed to help individuals manage their finances effortlessly. Track income, expenses, and budgets with intuitive visualizations and insightful analytics.
-
----
-
-## 📌 Features
-
-- ✅ Track income and expenses by categories
-- 📊 Visualize spending habits with interactive charts
-- 🔒 Secure user authentication
-- 💼 Monthly budgeting tools
-- 📅 Transaction history with filters
-- 📱 Responsive design for all devices
+A modern, secure, and user-friendly Personal Finance Manager built with React on the frontend and Express on the backend. It allows users to register/login, manage budgets, track expenses and income, upload receipts, and view visual summaries by month.
 
 ---
 
-## 🚀 Live Demo
-
-👉 [Live Preview](https://personal-finance-manager-nine.vercel.app)
-
----
-
-## 📂 GitHub Repository
-
-📁 [GitHub Repo](https://github.com/ThilinaJayamal/Personal-Finance-Manager)
+## 🚀 Live Demo  
+Click here: `https://your-deployment-url.vercel.app`
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-- **Frontend**: React, Tailwind CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Authentication**: JWT
-- **Deployment**: Vercel (Backend + Frontend)
+- **Frontend:** React, React Router DOM, Axios, react-hot-toast  
+- **Backend:** Node.js, Express, MongoDB (with Mongoose), Multer for file uploads, JWT for authentication  
+- **Deployment:** (e.g., Vercel, Heroku, AWS – add if applicable)
 
 ---
 
-## Team Members
+## ✨ Features
 
-- Thilina Jayamal ([@ThilinaJayamal](https://github.com/ThilinaJayamal))
-- Yasiru Rahul [@RahulDivyanja](https://github.com/RahulDivyanja)
-- Chamen Kalindu [@ChamenKalindu](https://github.com/ChamenKalindu)
-- Nishmika Nuran [@nishmikaeka](https://github.com/nishmikaeka)
+- User authentication (register, login, logout, session validation via `/me`)
+- Budget management (create, read, update, delete budgets)
+- Transaction management (add, list, delete transactions; include via receipt upload)
+- Monthly summaries and usage reports via API endpoints
+- Category-based expense tracking with dynamic budgets
+- Real-time UI updates via React Context API
 
 ---
 
-## 🧪 Getting Started (Development)
+## ⚡ Getting Started (Local Development)
 
-1. Clone the repository:
+### ✅ Prerequisites
+
+- Node.js (v16+ recommended)  
+- MongoDB (local or cloud)
+
+### 📂 Setup
 
 ```bash
-git clone https://github.com/yourusername/personal-finance-manager.git
-cd personal-finance-manager
+git clone https://github.com/VanshSama/Expense-Tracker.git
+cd Expense-Tracker
+
+# Install dependencies in both backend and frontend
+cd server
+npm install
+
+cd ../client
+npm install
+
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+
+### ✅📂 Folder Structure
+Expense-Tracker/
+├── client/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── contexts/
+│   │   ├── pages/
+│   │   └── App.jsx
+│   ├── public/
+│   └── vite.config.js
+└── server/
+    ├── controllers/
+    ├── middlewares/
+    ├── models/
+    ├── routes/
+    ├── utils/
+    └── index.js (or server.js)
+

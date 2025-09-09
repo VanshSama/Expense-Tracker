@@ -5,7 +5,7 @@ A modern, secure, and user-friendly Personal Finance Manager built with React on
 ---
 
 ## 🚀 Live Demo  
-Click here: `https://your-deployment-url.vercel.app`
+Click here: `https://expense-tracker-three-sooty-94.vercel.app`
 
 ---
 
@@ -51,6 +51,12 @@ npm install
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
+
+cd server
+npm run dev
+
+cd client
+npm run dev
 
 ### ✅📂 Folder Structure
 Expense-Tracker/

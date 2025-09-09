@@ -16,7 +16,7 @@ app.use(cookieParser());
 
 app.use(cors({
   origin: [
-    "https://expense-tracker-three-sooty-94.vercel.app"
+    "https://expense-tracker-2ik1qm3zy-vanshsamas-projects.vercel.app"
   ],
   credentials: true,
 }));

@@ -18,7 +18,7 @@ app.use(cors({
   origin: [
     "https://expense-tracker-three-sooty-94.vercel.app"
   ],
-  credentials: true
+  credentials: true,
 }));
 
 app.use(express.json());
